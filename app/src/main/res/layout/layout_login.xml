@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/colorSexto"
+    android:id="@+id/loginLayout">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="Iniciar Sesión"
+            android:textSize="30dp"
+            android:layout_marginBottom="15dp"
+            android:background="@color/colorQuinto"
+            android:textColor="@android:color/white"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BioBogotá"
+            android:textSize="20dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="-20dp"
+            android:background="@color/colorQuinto"
+            android:textColor="@android:color/white"
+            />
+
+        <EditText
+            android:id="@+id/ET_EmailMudder"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:hint="Email"
+            android:background="@color/colorCuarto"
+            android:textColorHint="@color/colorSecundario"
+            android:textColor="@android:color/white"
+            />
+
+        <EditText
+            android:id="@+id/ET_PassMudder"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:background="@color/colorCuarto"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/colorSecundario"
+            android:inputType="textPassword"
+            android:hint="Contraseña"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView >

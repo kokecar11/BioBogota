@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorPrincipal">#0F4BA6</color>
+    <color name="colorSecundario">#117A65</color>
+    <color name="colorTercero">#2874A6 </color>
+    <color name="colorCuarto">#283747</color>
+    <color name="colorQuinto">#c24f1a</color>
+    <color name="colorSexto">#1f3a57</color>
+    <color name="colorSeptimo">#1976d2</color>
+
+
+    <color name="BasecolorPress">#212F3C</color>
+    <color name="BasecolorRelease">#D0D3D4</color>
+    <color name="BallcolorRelease">#5F6A6A </color>
+
+</resources>
